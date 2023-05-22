@@ -1,0 +1,2 @@
+pude traer la API  a mi archivo pero no pude hacer que las frases se vieran en distintas tarjetas, 
+se van cambiando las  frases pero dentro de la misma

@@ -1,0 +1,93 @@
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-decoration-color: darkgoldenrod;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#cuadro1 {
+    background-color: orange;
+    color: black;
+}
+
+#cuadro2 {
+    background-color: greenyellow;
+    color: black;
+}
+
+#cuadro3 {
+    background-color: blue;
+    color: black;
+}
+
+.text {
+  background-color: rgb(205, 134, 27);
+}
+
+.text1{
+    background-color: chartreuse;
+}
+
+.text2 {
+    background-color: cyan;
+}
+
+section {
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover; 
+    opacity: .7;  
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 100px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+nav {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#imagen {
+   width: 50%;
+   display:block;
+   margin: auto;
+   
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box div {
+    width: 150px;
+    height: 100px;
+  }
